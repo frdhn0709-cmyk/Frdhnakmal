@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio Videographer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <h2 class="logo">PORTOFOLIO</h2>
+    <button class="tab-btn active" data-tab="about">About Me</button>
+    <button class="tab-btn" data-tab="portfolio">Portfolio</button>
+    <button class="tab-btn" data-tab="contact">Contact</button>
+  </aside>
+
+  <!-- CONTENT -->
+  <main class="content">
+
+    <!-- ABOUT -->
+    <section class="tab-content active" id="about">
+      <div class="about-layout">
+
+        <div class="photo-box">
+          <img src="c:\Users\HP5CD\Downloads\UKK09957.JPG" alt="Profile">
+        </div>
+
+        <div class="about-info">
+          <h1>PORTOFOLIO</h1>
+          <span class="badge">Multimedia Creator</span>
+          <p>
+            Hi! I am a Multimedia Creator, Fardhan.  
+            Focus on visual identity, poster, and social media.
+          </p>
+<!-- TOMBOL CV -->
+<div class="cv-box">
+  <button class="cv-btn"
+    data-link="c:\Users\HP5CD\Downloads\CV.jpg">
+    Lihat CV
+  </button>
+</div>
+          <div class="info-grid">
+            <div class="card">
+              <h3>Experience</h3>
+              <ul>
+                <li>Editing</li>
+                <li>Foto</li>
+                <li>Video</li>
+                <li>Grading</li>
+              </ul>
+            </div>
+
+            <div class="card">
+              <h3>Software</h3>
+              <div class="tags">
+                <span>Davinci</span>
+                <span>Photoshop</span>
+                <span>Cap Cut</span>
+                <span>Lightroom</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section class="tab-content" id="portfolio">
+      <h2>My Design Work</h2>
+
+      <div class="portfolio-grid">
+
+        <div class="portfolio-card" data-link="https://drive.google.com/drive/folders/1aVKfXqGquyUyIyQNGafSdLePTOBo-H1Y?usp=drive_link">
+          <img src="c:\Users\HP5CD\Downloads\minum derrr.jpg">
+          <span>Poster Design</span>
+        </div>
+
+        <div class="portfolio-card" data-link="https://drive.google.com/drive/folders/1DBsi8AvmdUMR0cA-OhGq6m4ctl9l8vW0?usp=drive_link">
+          <img src="c:\Users\HP5CD\Downloads\cam.jpeg">
+          <span>Videography</span>
+        </div>
+
+        <div class="portfolio-card" data-link="https://drive.google.com/drive/folders/1jFH8J-Ib1bd6OeyWMZ0KppUkyM-Dns4R?usp=drive_link">
+          <img src="c:\Users\HP5CD\Downloads\MDP_0269-2.JPG">
+          <span>Fotography</span>
+        </div>
+
+        <div class="portfolio-card" data-link="https://drive.google.com/drive/folders/1gjkI5johxjeptel6S2ezz4cQFktUXZUR?usp=drive_link">
+          <img src="c:\Users\HP5CD\Downloads\DKV02642 (1).JPG">
+          <span>Grading</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="tab-content" id="contact">
+  <h2>Contact</h2>
+
+  <div class="contact-grid">
+
+    <div class="contact-item" data-link="mailto:fardhanakmal14@gmail.com">
+      <h3>Email</h3>
+      <p>fardhanakmal14@gmail.com</p>
+    </div>
+
+    <div class="contact-item" data-link="https://www.instagram.com/wazowssskiii/">
+      <h3>Instagram</h3>
+      <p>@wazowssskiii</p>
+    </div>
+
+    <div class="contact-item" data-link="https://wa.me/6285281461535">
+      <h3>WhatsApp</h3>
+      <p>085281461535</p>
+    </div>
+
+  </div>
+</section>
+
+<script src="script.js"></script>
+<!-- CV POPUP -->
+<div class="cv-modal" id="cvModal">
+  <div class="cv-modal-content">
+    <span class="cv-close" id="closeCV">&times;</span>
+
+    <iframe
+      src="https://drive.google.com/file/d/FILE_ID_CV/preview"
+      frameborder="0">
+    </iframe>
+  </div>
+</div>
+</body>
+</html>
